@@ -1,5 +1,5 @@
 # 新增一个属性
-prefix: oneoneone++
+prefix: one++
 
 # 配置dev环境
 server:
@@ -15,7 +15,7 @@ eureka:
   # 指定eureka服务中心
   client:
     service-url:
-      defaultZone: http://eureka8001.com:8001/eureka
+      defaultZone: http://localhost:8001/eureka
 
 # 开启Feign对Hystrix的支持
 feign:
